@@ -1,3 +1,14 @@
+/* 
+ *   MagnetikOkumaZamani örneği, 
+ *   MagnetikOkumaZamani uygulamasında RTC modülü kullanılmıştır. 
+ *    
+ *   Bu örnekte Deneyap Kart ve Deneyap Kart 1A kartlarındaki mikrodenetleyiye yaklaştırılan mıknatıs belirlenen değer üstünde mıknatıs değeri okuyunca alınan veriler
+ *   seri port ekranına "Magnetik Algılandı: xx:xx xx:xx:xxxx ....." yazdırmaktadır.  
+ *   
+ *   Bu örnek uygulama diğer Deneyap Geliştirme Kartları kullanılırsa harici magnetik alan sensörü bağlanılmalı ve kodda gerekli değişiklikler yapılmalıdır.   
+ *   Bu uygulama örneği için "Deneyap_GercekZamanliSaat" kütüphanesi indirilmelidir.    
+*/
+
 #include <Deneyap_GercekZamanliSaat.h>
 #include "soc/sens_reg.h"
 #include "driver/adc.h"
